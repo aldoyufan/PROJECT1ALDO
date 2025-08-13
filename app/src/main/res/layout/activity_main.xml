@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E91E63"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#673AB7"
+        android:backgroundTint="#00BCD4"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="DATADIRI"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="foto_profil"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/img_20250716_123557"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="NAMA: MOCH ALDO YUFAN MAHENDRA"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="KELAS: XI PPLGA"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="ALAMAT: KERTEN"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="SEKOLAH: SMK NEGERI 2 SURAKARTA"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:backgroundTint="#00BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SELANJUTNYA"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-black"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
